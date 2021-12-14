@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Sumon Sadhukhan</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Sumon<span>.</span></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link"><i
+                                class='uil uil-estate nav__icon'></i>Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link"><i
+                                class='uil uil-user nav__icon'></i>About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link"><i
+                                class='uil uil-scenery nav__icon'></i>Work</a></li>
+                    <li class="nav__item"><a href="#connect" class="nav__link"><i
+                                class='uil uil-message nav__icon'></i>Connect</a></li>
+                </ul>
+            </div>
+            <div class="nav__button">
+                <i id="nav-toggle" class='uil uil-bars nav__toggle'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h1 class="home__title">Hey, Im <span>Sumon</span></h1>
+                        <h3 class="home__subtitle">a <span>front-end</span> developer</h3>
+                        <p class="home__text">I love creating websites & design them.</p>
+                        <a href="#connect" class="button home__button">
+                            Get in touch <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================About=================== -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__title">
+                    <div class="line"></div>
+                    <p class="section__title__text">About</p>
+                </div>
+                <div class="section__subtitle">
+                    <h2 class="section__subtitle__text">Get a closer look at who I am.</h2>
+                </div>
+            </div>
+            <div class="about__container container">
+                <div class="about__img">
+                    <svg class="about__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            <image class="about__blob-img" x='10' y='-25' href="images/Sumon.png" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="about__data">
+                    <div>
+                        <div class="about__title">
+                            <div class="small__line"></div>
+                            <p class="about__title__text">Who am I</p>
+                        </div>
+                    </div>
+                    <p class="about__description">I'm Sumon Sadhukhan, a front-end web developer.<br>
+                        I enjoy developing simple clean and slick websites that provide real value to the end
+                        user.<br>
+                        Although I'm very familiar with using frameworks, my websites are premarily hand-coded using
+                        HTML5, CSS3, SVG & JavaScript.
+                    </p>
+                    <div>
+                        <div class="about__title">
+                            <div class="small__line"></div>
+                            <p class="about__title__text">Skills & Tools</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="about__description">Development: JavaScript, React, HTML,
+                            CSS, Bootstrap, WordPress</p>
+                    </div>
+                    <div class="about__button">
+                        <a href="resume.pdf" target="_blank" class="button">
+                            Download CV<i class='uil uil-download-alt button__icon'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= Work ================= -->
+        <section class="work section" id="work">
+            <div class="container">
+                <div class="section__title">
+                    <div class="line"></div>
+                    <p class="section__title__text">Work</p>
+                </div>
+                <div class="section__subtitle">
+                    <h2 class="section__subtitle__text">Hand-picked projects</h2>
+                    <h2 class="section__subtitle__text" style="margin-top: 0;">for you to see.</h2>
+                </div>
+            </div>
+            <div class="work__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/barber-shop-website.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">Modern website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.github.io/Barber-shop-website.github.io-/" target="_blank"
+                                class="button work__button">View Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/e-commerce-website.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">E-commerce website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.github.io/E-commerce-website.github.io/" target="_blank"
+                                class="button work__button">View Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/university website.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">University website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.github.io/University-website.github.io/" target="_blank"
+                                class="button work__button">View Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/gym-website.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">Buisness website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.github.io/Gym-website.github.io/" target="_blank"
+                                class="button work__button">View Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/restourent-website.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">Restourent website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.github.io/Restourent-website.github.io/" target="_blank"
+                                class="button work__button">View Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                    <div class="work__content grid swiper-slide">
+                        <img src="images/portfolio.png" alt="" class="work__img">
+                        <div class="work__data">
+                            <h3 class="work__title">Personal website</h3>
+                            <p class="work__description">website adaptable to all devices, with UI components and
+                                animated interaction.</p>
+                            <a href="https://sumon1510.pages.dev/" target="_blank" class="button work__button">View
+                                Demo<i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"><i class="uil uil-angle-right-b swiper-work-icon"></i></div>
+                <div class="swiper-button-prev"><i class="uil uil-angle-left-b swiper-work-icon"></i></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- ================ Connect ============== -->
+        <section class="connect section" id="connect">
+            <div class="container">
+                <div class="section__title">
+                    <div class="line"></div>
+                    <p class="section__title__text">Connect</p>
+                </div>
+                <div class="section__subtitle">
+                    <h2 class="section__subtitle__text">Interested in working with me</h2>
+                    <h2 class="section__subtitle__text" style="margin-top: 0;">or perhaps just talk?</h2>
+                </div>
+                <p class="connect__text">Reach me on social media, by filling out the contact form or by sending an
+                    email to <a
+                        href="mailto:sumonsadhukhan1002@gmail.com?subject=connect from sumonsadhukhan.pages.dev&amp;body=Hey Sumon, I'm connecting you because..."
+                        class="email">sumonsadhukhan1002@gmail.com</a></p>
+            </div>
+            <div class="connect__container container">
+                <form action="https://formspree.io/f/moqrqlvv" method="post" class="connect__form">
+                    <fieldset>
+                        <legend>Contact form</legend>
+                        <div class="connect__inputs">
+                            <div class="connect__content">
+                                <label for="" class="connect__label" style="margin-top: 0;">What's your name?
+                                    <input type="text" class="connect__input" name="name" id="Name"></label>
+                            </div>
+                            <div class="connect__content">
+                                <label for="" class="connect__label">Your email address
+                                    <input type="email" class="connect__input" name="email" id="Email"></label>
+                            </div>
+                        </div>
+                        <div class="connect__content">
+                            <label for="" class="connect__label" style="margin-top: 2rem !important;">Type your message
+                                here
+                                <textarea name="Message" id="message" type="text" rows="5"
+                                    class="connect__input textarea"></textarea></label>
+                            <p style="margin-top: 0.75rem;">0/200</p>
+                        </div>
+                        <div>
+                            <input type="submit" class="submit__button button" value="Send message"></input>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__title">Copyright &#169 2022 Sumon Sadhukhan</p>
+        <div class="footer__social">
+            <a href="https://github.com/Sumon1510" class="footer__icon" target="_blank"><i
+                    class='uil uil-github-alt'></i></a>
+            <a href="https://twitter.com/sumon1510" class="footer__icon" target="_blank"><i
+                    class='uil uil-twitter-alt'></i></a>
+            <a href="https://www.linkedin.com/in/sumon-sadhukhan-2013ba172/" class="footer__icon" target="_blank"><i
+                    class='uil uil-linkedin-alt'></i></a>
+        </div>
+    </footer>
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+            cssMode: true,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- /*===== SCROLL REVEAL ANIMATION =====*/ -->
+    <script>
+        ScrollReveal({
+            distance: '30px',
+            duration: 2000,
+            reset: true
+        });
+        /*SCROLL LAYOUT*/
+        ScrollReveal({ origin: 'left' }).reveal('.section__title__text', { delay: 100 });
+        ScrollReveal({ origin: 'left' }).reveal('.section__subtitle__text', { delay: 300 });
+        ScrollReveal({ origin: 'top' }).reveal('.button', { delay: 200 });
+        /*SCROLL HOME*/
+        ScrollReveal({ origin: 'left' }).reveal('.home__title', { delay: 100 });
+        ScrollReveal({ origin: 'left' }).reveal('.home__subtitle', { delay: 500 });
+        ScrollReveal({ origin: 'top' }).reveal('.home__text', { delay: 1000 });
+        ScrollReveal({ origin: 'top' }).reveal('.home__button', { delay: 1200 });
+        /*SCROLL ABOUT*/
+        ScrollReveal({ origin: 'left' }).reveal('.about__title__text', { delay: 100 });
+        ScrollReveal({ origin: 'top' }).reveal('.about__description', { delay: 300 });
+        ScrollReveal({ origin: 'top' }).reveal('.about__img', { delay: 500 });
+        /*SCROLL Work*/
+        ScrollReveal({ origin: 'top' }).reveal('.work__container', { delay: 300 });
+        /*SCROLL CONTACT*/
+        ScrollReveal({ origin: 'top' }).reveal('.connect__text', { delay: 500 });
+        ScrollReveal({ origin: 'top' }).reveal('.connect__form', { delay: 500 });
+        /*SCROLL FOOTER*/
+        ScrollReveal({ origin: 'top' }).reveal('.footer__title', { delay: 300 });
+        ScrollReveal({ origin: 'top' }).reveal('.footer__icon', { delay: 300 });
+    </script>
+</body>
+
+</html>
