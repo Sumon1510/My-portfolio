@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <header class="header" id="header">
         <nav class="nav bd-grid">
             <div>
@@ -299,6 +300,12 @@
         /*SCROLL FOOTER*/
         ScrollReveal({ origin: 'top' }).reveal('.footer__title', { delay: 300 });
         ScrollReveal({ origin: 'top' }).reveal('.footer__icon', { delay: 300 });
+    </script>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
     </script>
 </body>
 
